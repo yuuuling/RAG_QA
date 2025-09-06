@@ -9,7 +9,7 @@
 
 - `rag_with_ollama.py`  
   主程式，負責 PDF 解析、檢索、主題路由、答案生成
-- `request.txt`  
+- `requirements.txt`  
   所需套件清單，可用於安裝環境。
 - `海外旅行不便險條款.pdf`  
   測試用保險條款文件（需自行提供）。
