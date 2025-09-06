@@ -24,7 +24,7 @@
    source .env/bin/activate
 2. 安裝套件
    ```bash
-   pip install -r request.txt
+   pip install -r requirements.txt
 3. 安裝並啟動ollama，確保可以呼叫本地模型，預設模型為 `qwen2:7b`，可透過環境變數調整
    ```bash
    export OLLAMA_MODEL="qwen2:7b"
