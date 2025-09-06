@@ -7,7 +7,7 @@
 
 ## 📂 專案架構
 
-- `rag_travel.py`  
+- `rag_with_ollama.py`  
   主程式，負責 PDF 解析、檢索、主題路由、答案生成
 - `request.txt`  
   所需套件清單，可用於安裝環境。
@@ -25,7 +25,7 @@
 2. 安裝套件
    ```bash
    pip install -r request.txt
-3. 安裝並啟動ollama，確保可以呼叫本地模型，預設模型為 qwen2:7b，可透過環境變數調整
+3. 安裝並啟動ollama，確保可以呼叫本地模型，預設模型為 `qwen2:7b`，可透過環境變數調整
    ```bash
    export OLLAMA_MODEL="qwen2:7b"
 
