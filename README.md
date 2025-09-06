@@ -1,14 +1,14 @@
 # RAG_QA for 海外旅行不便險條款
 
-本專案實作一個 **檢索增強生成 (RAG)** 系統，針對《海外旅行不便險條款》PDF 提供自動化問答 
-使用者可輸入自然語言問題，系統會檢索相關條文並生成結構化回答
+本專案實作一個 **檢索增強生成 (RAG)** 系統，針對《海外旅行不便險條款》PDF 提供自動化問答 。
+使用者可輸入自然語言問題，系統會檢索相關條文並生成結構化回答。
 
 ---
 
 ## 📂 專案架構
 
 - `rag_with_ollama.py`  
-  主程式，負責 PDF 解析、檢索、主題路由、答案生成
+  主程式，負責 PDF 解析、檢索、主題路由、答案生成。
 - `requirements.txt`  
   所需套件清單，可用於安裝環境。
 - `海外旅行不便險條款.pdf`  
@@ -25,7 +25,7 @@
 2. 安裝套件
    ```bash
    pip install -r requirements.txt
-3. 安裝並啟動ollama，確保可以呼叫本地模型，預設模型為 `qwen2:7b`，可透過環境變數調整
+3. 安裝並啟動ollama，確保可以呼叫本地模型，預設模型為 `qwen2:7b`，可透過環境變數調整。
    ```bash
    export OLLAMA_MODEL="qwen2:7b"
 
@@ -40,5 +40,5 @@ python rag_travel.py --pdf ./海外旅行不便險條款.pdf --q "什麼情況�
 
 
 
-輸出內容包含Route, Answer, Sources
+輸出內容包含Route, Answer, Sources。
 
