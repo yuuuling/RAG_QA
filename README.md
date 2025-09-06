@@ -18,6 +18,9 @@
 
 ## ⚙️ 安裝與環境
 
+- 測試環境：macOS 15.5 / Python 3.13 
+- 建議使用虛擬環境 (venv)
+
 1. 建立虛擬環境：
    ```bash
    python3 -m venv .env
